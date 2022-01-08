@@ -1,4 +1,3 @@
-import { activities } from '../config.json';
 import { Client } from 'discord-rpc';
 import {
     clientId,
@@ -8,6 +7,7 @@ import { createActivity } from './utility/utility';
 import { ErrorHandler } from './utility/ErrorHandler';
 import { Log } from './utility/Log';
 import { setTimeout } from 'node:timers/promises';
+import activities from '../activities.json';
 
 const {
     activity: { resumeAfter },

@@ -1,0 +1,84 @@
+[
+    {
+        "state": "Profile",
+        "details": "I do stuff on the internet",
+        "largeImageKey": "avatar",
+        "largeImageText": "Attituding#6517",
+        "smallImageKey": "hypesquad",
+        "smallImageText": "HypeSquad Balance",
+        "buttons": [
+            {
+                "label": "View GitHub Profile",
+                "url": "https://github.com/Attituding"
+            }
+        ]
+    },
+    {
+        "state": "Current Project",
+        "details": "NotifHy - a notification/alert bot",
+        "largeImageKey": "notifhy_v7",
+        "largeImageText": "NotifHy",
+        "smallImageKey": "hypixel",
+        "smallImageText": "Made for Hypixel",
+        "buttons": [
+            {
+                "label": "View Repository",
+                "url": "https://github.com/Attituding/NotifHy"
+            }
+        ]
+    },
+    {
+        "state": "Previous Project",
+        "details": "Iris - a browser extension",
+        "largeImageKey": "iris",
+        "largeImageText": "Iris",
+        "smallImageKey": "hypixel",
+        "smallImageText": "Made for Hypixel",
+        "buttons": [
+            {
+                "label": "View Repository",
+                "url": "https://github.com/Attituding/Iris"
+            },
+            {
+                "label": "Chrome Web Store Page",
+                "url": "https://chrome.google.com/webstore/detail/iris/eoimknngdbibmlhfkkfdjiaonaelahgo"
+            }
+        ]
+    },
+    {
+        "state": "Deprecated Project",
+        "details": "HyGuard - an alert system bot",
+        "largeImageKey": "hyguard",
+        "largeImageText": "HyGuard",
+        "smallImageKey": "hypixel",
+        "smallImageText": "Made for Hypixel",
+        "buttons": [
+            {
+                "label": "View Repository",
+                "url": "https://github.com/Attituding/HyGuard"
+            },
+            {
+                "label": "Invite Bot",
+                "url": "https://discord.com/oauth2/authorize?client_id=841021942249422868&permissions=268528656&scope=bot%20applications.commands"
+            }
+        ]
+    },
+    {
+        "state": "Presence",
+        "details": "Built on the discordjs/rpc library",
+        "largeImageKey": "discordjs",
+        "largeImageText": "discord.js",
+        "smallImageKey": "discord",
+        "smallImageText": "Thanks Mason.. and devsnek",
+        "buttons": [
+            {
+                "label": "View Repository",
+                "url": "https://github.com/Attituding/discord-rich-presence"
+            },
+            {
+                "label": "View Library",
+                "url": "https://github.com/discordjs/rpc"
+            }
+        ]
+    }
+]
