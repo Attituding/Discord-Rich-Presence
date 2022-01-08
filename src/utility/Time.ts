@@ -48,16 +48,12 @@ export class Time {
             return null;
         }
 
-        return `${
-            utc === true
-                ? `UTC${this.createOffset()} `
-                : ''
-        }${
-            newDate.toLocaleTimeString('en-IN', { hour12: true })
-        }${
-            date === true
-                ? `, ${this.cleanDate(ms)}`
-                : ''
-        }`;
+        return `${utc === true
+            ? `UTC${this.createOffset()} `
+            : ''}${
+        newDate.toLocaleTimeString('en-IN', { hour12: true })
+        }${date === true
+            ? `, ${this.cleanDate(ms)}`
+            : ''}`;
     }
 }

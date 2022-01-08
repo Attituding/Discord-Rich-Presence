@@ -20,7 +20,7 @@ let index = 0;
 
     client.on('disconnected', async () => {
         connected = false;
-        Log.log(`RPC disconnected, trying to reconnect...`);
+        Log.log('RPC disconnected, trying to reconnect...');
         await login();
     });
 
@@ -67,7 +67,7 @@ async function setActivity() {
     try {
         await client.setActivity(activity);
     } catch (error) {
-        Log.log(`Failed to update RPC`, error);
+        Log.log('Failed to update RPC', error);
         addActivityError();
         return;
     }
