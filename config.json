@@ -63,6 +63,22 @@
                     "url": "https://discord.com/oauth2/authorize?client_id=841021942249422868&permissions=268528656&scope=bot%20applications.commands"
                 }
             ]
+        },
+        {
+            "state": "Built with discordjs/RPC",
+            "details": "Discord Remote Procedure Call",
+            "largeImageKey": "discordjs",
+            "largeImageText": "discord.js",
+            "buttons": [
+                {
+                    "label": "View Library",
+                    "url": "https://github.com/discordjs/rpc"
+                },
+                {
+                    "label": "View Repository",
+                    "url": "https://github.com/Attituding/discord-rich-presence"
+                }
+            ]
         }
     ]
 }
