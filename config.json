@@ -65,10 +65,12 @@
             ]
         },
         {
-            "state": "Built with discordjs/RPC",
-            "details": "Discord Remote Procedure Call",
+            "state": "Presence",
+            "details": "This was built with discordjs/rpc",
             "largeImageKey": "discordjs",
             "largeImageText": "discord.js",
+            "smallImageKey": "discord",
+            "smallImageText": "Thanks Mason, probably",
             "buttons": [
                 {
                     "label": "View Library",
