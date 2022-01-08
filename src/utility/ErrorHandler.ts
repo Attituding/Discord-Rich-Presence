@@ -30,6 +30,9 @@ export class ErrorHandler {
             clearTimeout: undefined,
             timeout: 0,
         };
+
+        this.addActivityError = this.addActivityError.bind(this);
+        this.addConnectionError = this.addConnectionError.bind(this);
     }
 
     addActivityError() {

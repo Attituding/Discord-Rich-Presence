@@ -9,7 +9,11 @@ import { ErrorHandler } from './utility/ErrorHandler';
 import { Log } from './utility/Log';
 import { setTimeout } from 'node:timers/promises';
 
-const errorHandler = new ErrorHandler();
+const {
+    activity: { resumeAfter },
+    addActivityError,
+    addConnectionError,
+} = new ErrorHandler();
 
 let client = new Client({ transport: 'ipc' });
 let connected = false;
@@ -41,8 +45,8 @@ async function login() {
         connected = true;
         Log.log(`Logged into RPC as ${client.user.username}#${client.user.discriminator}`);
     } catch (error) {
-        const timeout = errorHandler.addConnectionError();
-        Log.log(`Failed to login, waiting ${timeout} before trying again`, error);
+        const timeout = addConnectionError();
+        Log.log(`Failed to login, waiting ${timeout}ms before trying again |`, error);
         await setTimeout(timeout);
         Log.log('Trying to login...');
         await login();
@@ -50,11 +54,6 @@ async function login() {
 }
 
 async function setActivity() {
-    const {
-        activity: { resumeAfter },
-        addActivityError,
-    } = errorHandler;
-
     const activity = createActivity(index);
 
     if (
@@ -67,7 +66,7 @@ async function setActivity() {
     try {
         await client.setActivity(activity);
     } catch (error) {
-        Log.log('Failed to update RPC', error);
+        Log.log('Failed to update RPC |', error);
         addActivityError();
         return;
     }
