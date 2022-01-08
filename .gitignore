@@ -1,0 +1,8 @@
+# ignore modules
+/node_modules
+
+# ignore compiled JS
+**.js
+
+# ignore log txt
+log.txt
