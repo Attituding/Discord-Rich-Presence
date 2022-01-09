@@ -62,23 +62,5 @@
                 "url": "https://discord.com/oauth2/authorize?client_id=841021942249422868&permissions=268528656&scope=bot%20applications.commands"
             }
         ]
-    },
-    {
-        "state": "Presence",
-        "details": "Built on the discordjs/rpc library",
-        "largeImageKey": "discordjs",
-        "largeImageText": "discord.js",
-        "smallImageKey": "discord",
-        "smallImageText": "Thanks Mason.. and devsnek",
-        "buttons": [
-            {
-                "label": "View Repository",
-                "url": "https://github.com/Attituding/discord-rich-presence"
-            },
-            {
-                "label": "View Library",
-                "url": "https://github.com/discordjs/rpc"
-            }
-        ]
     }
 ]
