@@ -9,6 +9,10 @@ import { Log } from './utility/Log';
 import { setTimeout } from 'node:timers/promises';
 import activities from '../activities.json';
 
+process.on('exit', code => {
+    Log.log(`Exiting with code ${code}`);
+});
+
 const {
     activity: { resumeAfter },
     addActivityError,
