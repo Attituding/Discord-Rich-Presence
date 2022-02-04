@@ -2,9 +2,9 @@
     {
         "state": "Profile",
         "details": "I do stuff on the internet",
-        "largeImageKey": "avatar",
+        "largeImageKey": "https://i.imgur.com/QBD0tgq.png",
         "largeImageText": "Attituding#6517",
-        "smallImageKey": "hypesquad",
+        "smallImageKey": "https://i.imgur.com/1KNO0T3.png",
         "smallImageText": "HypeSquad Balance",
         "buttons": [
             {
@@ -16,9 +16,9 @@
     {
         "state": "Current Project",
         "details": "NotifHy - a notification/alert bot",
-        "largeImageKey": "notifhy",
+        "largeImageKey": "https://i.imgur.com/glOkf1f.png",
         "largeImageText": "NotifHy",
-        "smallImageKey": "hypixel",
+        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
         "smallImageText": "Made for Hypixel",
         "buttons": [
             {
@@ -30,9 +30,9 @@
     {
         "state": "Previous Project",
         "details": "Iris - a browser extension",
-        "largeImageKey": "iris",
+        "largeImageKey": "https://i.imgur.com/c8OehiC.png",
         "largeImageText": "Iris",
-        "smallImageKey": "hypixel",
+        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
         "smallImageText": "Made for Hypixel",
         "buttons": [
             {
@@ -48,9 +48,9 @@
     {
         "state": "Deprecated Project",
         "details": "HyGuard - an alert system bot",
-        "largeImageKey": "hyguard",
+        "largeImageKey": "https://i.imgur.com/2RiOcAY.png",
         "largeImageText": "HyGuard",
-        "smallImageKey": "hypixel",
+        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
         "smallImageText": "Made for Hypixel",
         "buttons": [
             {
