@@ -16,14 +16,18 @@
     {
         "state": "Current Project",
         "details": "NotifHy - a notification/alert bot",
-        "largeImageKey": "https://i.imgur.com/glOkf1f.png",
+        "largeImageKey": "https://i.imgur.com/P4bBNgv.png",
         "largeImageText": "NotifHy",
         "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
         "smallImageText": "Made for Hypixel",
         "buttons": [
             {
-                "label": "View Repository",
-                "url": "https://github.com/Attituding/NotifHy"
+                "label": "Invite Bot",
+                "url": "https://discord.com/api/oauth2/authorize?client_id=841021942249422868&permissions=18432&scope=bot%20applications.commands"
+            },
+            {
+                "label": "Learn More",
+                "url": "https://attituding.github.io/NotifHy"
             }
         ]
     },
@@ -36,30 +40,12 @@
         "smallImageText": "Made for Hypixel",
         "buttons": [
             {
-                "label": "View Repository",
-                "url": "https://github.com/Attituding/Iris"
-            },
-            {
                 "label": "Chrome Web Store Page",
                 "url": "https://chrome.google.com/webstore/detail/iris/eoimknngdbibmlhfkkfdjiaonaelahgo"
-            }
-        ]
-    },
-    {
-        "state": "Deprecated Project",
-        "details": "HyGuard - an alert system bot",
-        "largeImageKey": "https://i.imgur.com/2RiOcAY.png",
-        "largeImageText": "HyGuard",
-        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
-        "smallImageText": "Made for Hypixel",
-        "buttons": [
-            {
-                "label": "View Repository",
-                "url": "https://github.com/Attituding/HyGuard"
             },
             {
-                "label": "Invite Bot",
-                "url": "https://discord.com/oauth2/authorize?client_id=841021942249422868&permissions=268528656&scope=bot%20applications.commands"
+                "label": "Learn More",
+                "url": "https://github.com/Attituding/Iris"
             }
         ]
     }
