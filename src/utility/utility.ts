@@ -1,5 +1,5 @@
 import { interval } from '../constants';
-import activities from '../../activities.json';
+import activities from '../activities.json';
 
 export function createActivity(index: number) {
     return {

@@ -1,4 +1,5 @@
 import { Client } from 'discord-rpc';
+import { setTimeout } from 'node:timers/promises';
 import {
     clientId,
     interval,
@@ -6,10 +7,9 @@ import {
 import { createActivity } from './utility/utility';
 import { ErrorHandler } from './utility/ErrorHandler';
 import { Log } from './utility/Log';
-import { setTimeout } from 'node:timers/promises';
-import activities from '../activities.json';
+import activities from './activities.json';
 
-process.on('exit', code => {
+process.on('exit', (code) => {
     Log.log(`Exiting with code ${code}`);
 });
 
@@ -35,9 +35,10 @@ let index = 0;
     if (activities.length === 1) {
         await setActivity();
     } else if (activities.length > 1) {
+        // eslint-disable-next-line no-constant-condition
         while (true) {
-            await setActivity(); //eslint-disable-line no-await-in-loop
-            await setTimeout(interval); //eslint-disable-line no-await-in-loop
+            await setActivity(); // eslint-disable-line no-await-in-loop
+            await setTimeout(interval); // eslint-disable-line no-await-in-loop
         }
     }
 })();
@@ -47,7 +48,7 @@ async function login() {
         client = new Client({ transport: 'ipc' });
         await client.login({ clientId: clientId });
         connected = true;
-        Log.log(`Logged into RPC as ${client.user.username}#${client.user.discriminator}`);
+        Log.log(`Logged into RPC as ${client.user?.username}#${client.user?.discriminator}`);
     } catch (error) {
         const timeout = addConnectionError();
         Log.log(`Failed to login, waiting ${timeout}ms before trying again |`, error);
@@ -61,8 +62,8 @@ async function setActivity() {
     const activity = createActivity(index);
 
     if (
-        resumeAfter > Date.now() ||
-        connected === false
+        resumeAfter > Date.now()
+        || connected === false
     ) {
         return;
     }
