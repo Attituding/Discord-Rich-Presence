@@ -1,11 +1,11 @@
 import {
-    activityErrorTimeout,
-    connectionErrorTimeout,
-} from '../constants';
-import {
     clearTimeout,
     setTimeout,
 } from 'node:timers';
+import {
+    activityErrorTimeout,
+    connectionErrorTimeout,
+} from '../constants';
 
 export class ErrorHandler {
     activity: {
@@ -36,7 +36,7 @@ export class ErrorHandler {
     }
 
     addActivityError() {
-        const activity = this.activity;
+        const { activity } = this;
         activity.resumeAfter = Date.now() + activity.timeout;
 
         activity.timeout += activityErrorTimeout;
@@ -51,7 +51,7 @@ export class ErrorHandler {
     }
 
     addConnectionError(): number {
-        const connection = this.connection;
+        const { connection } = this;
 
         connection.timeout += connectionErrorTimeout;
 
