@@ -2,7 +2,7 @@
     "name": "discord-rich-presence",
     "license": "MIT",
     "author": "Attituding <Attituding@outlook.com>",
-    "main": "dist/main.js",
+    "main": "dist/index.js",
     "dependencies": {
         "discord-rpc": "^4.0.1",
         "typescript": "^4.7.4"
