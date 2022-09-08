@@ -1,7 +1,7 @@
 {
     "name": "discord-rich-presence",
     "license": "MIT",
-    "author": "Attituding <Attituding@outlook.com>",
+    "author": "Attituding <attituding@outlook.com>",
     "main": "dist/index.js",
     "dependencies": {
         "discord-rpc": "^4.0.1",
