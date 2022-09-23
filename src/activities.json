@@ -1,7 +1,7 @@
 [
     {
-        "state": "Profile",
-        "details": "I do stuff on the internet",
+        "state": "testing",
+        "details": "testing testing 123",
         "largeImageKey": "https://i.imgur.com/QBD0tgq.png",
         "largeImageText": "Attituding#6517",
         "smallImageKey": "https://i.imgur.com/1KNO0T3.png",
@@ -10,42 +10,6 @@
             {
                 "label": "View GitHub Profile",
                 "url": "https://github.com/Attituding"
-            }
-        ]
-    },
-    {
-        "state": "Current Project",
-        "details": "NotifHy - a notification/alert bot",
-        "largeImageKey": "https://i.imgur.com/P4bBNgv.png",
-        "largeImageText": "NotifHy",
-        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
-        "smallImageText": "Made for Hypixel",
-        "buttons": [
-            {
-                "label": "Invite Bot",
-                "url": "https://discord.com/api/oauth2/authorize?client_id=841021942249422868&permissions=18432&scope=bot%20applications.commands"
-            },
-            {
-                "label": "Learn More",
-                "url": "https://attituding.github.io/NotifHy"
-            }
-        ]
-    },
-    {
-        "state": "Previous Project",
-        "details": "Iris - a browser extension",
-        "largeImageKey": "https://i.imgur.com/c8OehiC.png",
-        "largeImageText": "Iris",
-        "smallImageKey": "https://i.imgur.com/KH5u7Lo.png",
-        "smallImageText": "Made for Hypixel",
-        "buttons": [
-            {
-                "label": "Chrome Web Store Page",
-                "url": "https://chrome.google.com/webstore/detail/iris/eoimknngdbibmlhfkkfdjiaonaelahgo"
-            },
-            {
-                "label": "Learn More",
-                "url": "https://github.com/Attituding/Iris"
             }
         ]
     }

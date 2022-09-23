@@ -1,5 +1,4 @@
-# ignore compiled JS
+.env
 dist
-
-# ignore log txt
+node_modules
 log.txt
